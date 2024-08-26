@@ -1,0 +1,18 @@
+[
+  {
+    "ContainingType": "NotificationServer.Controllers.EMailsController",
+    "Method": "SendMail",
+    "RelativePath": "api/EMails",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "Shared.Dtos.Emails.EmailBodyDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]
